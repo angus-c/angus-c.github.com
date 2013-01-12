@@ -1,0 +1,10 @@
+---
+layout: post
+title: "New Post"
+date: 2013-01-11 23:16
+comments: true
+categories:
+---
+
+## does this work?
+
