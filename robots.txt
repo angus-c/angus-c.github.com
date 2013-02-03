@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://angus-c.github.com/sitemap.xml 
