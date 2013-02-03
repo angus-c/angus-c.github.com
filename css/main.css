@@ -66,8 +66,8 @@ p {
 }
 
 .site-title {
-  margin: 0;
-  font-size: 5em;
+  margin-bottom: 0.5em;
+  font-size: 4em;
   font-weight: normal;
   line-height: 1.2;
 }
