@@ -31,9 +31,23 @@ a.text:active {
   text-decoration: underline;
 }
 
+ul {
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul a {
+  display: block;
+}
+
 img.icon {
-  height: 64px;
-  width: 64px;
+  height: 4em;
+  width: 4em;
 }
 
 h2,
@@ -71,8 +85,8 @@ p {
   line-height: 1.2;
 }
 
-.site-tagline {
-  margin: 0 0 1em;
+.site-list-links {
+  margin-bottom: 0.3em;
   font-size: 1.75em;
   font-weight: normal;
 }
