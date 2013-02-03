@@ -42,17 +42,6 @@ h4 {
   line-height: 1.2;
 }
 
-/**
- * Custom thematic break style
- */
-
-hr {
-  width: 122px;
-  margin: 2em auto;
-  border: 0;
-  border-bottom: 2px dotted #333;
-}
-
 p {
   margin: 1.5em 0;
 }
