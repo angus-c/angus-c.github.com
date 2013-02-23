@@ -3,9 +3,17 @@
    Base styles
    ========================================================================== */
 
+@font-face {
+  font-family: 'Remington-Noiseless';
+  src: url('../fonts/Remington-Noiseless.ttf') format('truetype');
+/*  font-family: 'TravelingTypewriter';
+  src: url('../fonts/TravelingTypewriter.ttf') format('truetype');*/
+}
+
 html {
   color: #222;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Remington-Noiseless, "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  font-family: TravelingTypewriter, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font-size: 1em;
   line-height: 1.5;
 }
@@ -21,7 +29,8 @@ html {
 }
 
 a {
-  color: #06b;
+/*  color: #06b;*/
+  color: #000;
   text-decoration: none;
 }
 
