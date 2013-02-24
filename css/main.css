@@ -4,13 +4,13 @@
    ========================================================================== */
 
 @font-face {
-  font-family: 'Remington-Noiseless';
-  src: url('../fonts/Remington-Noiseless.ttf') format('truetype');
+  font-family: 'andale mono';
+  src: url('../fonts/andale-mono.ttf') format('truetype');
 }
 
 html {
   color: #222;
-  font-family: "andale mono", Remington-Noiseless, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'andale mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5;
 }
