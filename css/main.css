@@ -25,9 +25,11 @@ html {
   text-shadow: none;
 }
 
-a {
-/*  color: #06b;*/
+a.text {
   color: #000;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -35,6 +37,16 @@ a.text:hover,
 a.text:focus,
 a.text:active {
   text-decoration: underline;
+}
+
+
+img.icon:hover {
+  opacity: 0.7;
+}
+
+img.icon {
+  height: 4em;
+  width: 4em;
 }
 
 ul {
@@ -49,11 +61,6 @@ ul li {
 
 ul a {
   display: block;
-}
-
-img.icon {
-  height: 4em;
-  width: 4em;
 }
 
 h2,
