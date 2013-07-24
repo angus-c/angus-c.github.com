@@ -6,17 +6,22 @@
   	<title>today's wfh excuse</title>
   </head>
   <body>
-    <h1 id="excuse"></excuse>
+    <h1 id="excuse" style="font-size: 36pt"></h1>
+    <button onclick="make()" style="font-size: 14pt; width: 200px; height: 30px">make another</button>
 
     <script>
-      function random(x) {return Math.floor(x*Math.random());}
-      var a = random(10);
-      var b = random(6);
-      var c;
-      while(!c || c==a) c = random(10);
-      var things = ['baby', 'plumber', 'cat', 'mail carrier', 'dog', 'UPS guy', 'rabbit', 'washing machine', 'car', 'neighbor'];
-      var verbs = ['ate', 'forgot', 'vomitted over', 'broke', 'upset', 'ran off with'];
-      document.getElementById('excuse').innerHTML = ["The", things[a], verbs[b], "the", things[c]].join(' ');
+      make();
+      function make() {
+        function random(x) {return Math.floor(x*Math.random());}
+        var a = random(8);
+        var b = random(6);
+        var c;
+        while(!c || c==a) c = random(10);
+        var subjects = ['baby', 'plumber', 'cat', 'mail carrier', 'dog', 'UPS guy', 'rabbit', 'neighbor'];
+        var verbs = ['ate', 'bit', 'vomitted on', 'broke', 'upset', 'ran off with'];
+        var objects = ['baby', 'plumber', 'cat', 'mail carrier', 'dog', 'UPS guy', 'rabbit', 'neighbor', 'washing machine', 'car'];
+        document.getElementById('excuse').innerHTML = ["wfh today, the", subjects[a], verbs[b], "the", objects[c]].join(' ');
+      }
     </script>
 
   </body>
