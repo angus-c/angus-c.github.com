@@ -4,13 +4,13 @@
    ========================================================================== */
 
 @font-face {
-  font-family: 'andale mono';
+  font-family: 'andale-mono';
   src: url('../fonts/andale-mono.ttf') format('truetype');
 }
 
 html {
   color: #222;
-  font-family: 'andale mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
   font-size: 1em;
   line-height: 1.5;
 }
@@ -32,6 +32,14 @@ body {
 a.text {
   color: #000;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.big {
+  font-size: 1.3em;
+}  
 
 a {
   text-decoration: none;
