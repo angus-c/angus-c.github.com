@@ -1,0 +1,46 @@
+
+/* ==========================================================================
+   Base styles
+   ========================================================================== */
+
+html {
+  color: rgb(132, 0, 44);
+  font-family: Helvetica;
+  font-size: 1em;
+  /*line-height: 1.5;*/
+}
+
+body {
+  background-image: none;
+}
+
+/* ==========================================================================
+   Site
+   ========================================================================== */
+
+  .hemingway--banner {
+    height: 100px;
+  } 
+
+  .hemingway--header {
+    /*margin-bottom: 0.3em;*/
+    font-size: 3.5em;
+    font-weight: normal;
+  }
+
+  .hemingway--sub-header {
+    margin-bottom: 0.3em;
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+
+  .hemingway--main-left {
+    margin-left: 100px;
+    float: left;
+  }
+
+  .hemingway--main-right {
+    margin-right: 50px;    
+    float: right;
+  }
+
