@@ -3,9 +3,14 @@
    Base styles
    ========================================================================== */
 
+@font-face {
+  font-family: 'lanenar';
+  src: url('../fonts/LANENAR_.ttf') format('truetype');
+}
+
 html {
   color: rgb(132, 0, 44);
-  font-family: Helvetica;
+  font-family: "lanenar";
   font-size: 1em;
   /*line-height: 1.5;*/
 }
@@ -16,13 +21,16 @@ html {
 
   .hemingway--banner {
     height: 170px;
-    background: url('../hemingway/images/nine_authors.png')
+    width: 80%;
+    background: url('../hemingway/images/nine_authors.png');
+    background-repeat:no-repeat;
+    background-position: right 50% left 50%;    
   } 
 
   .hemingway--header {
     /*margin-bottom: 0.3em;*/
     font-size: 3.5em;
-    font-weight: normal;
+    font-weight: bold;   
   }
 
   .hemingway--sub-header {
@@ -41,3 +49,8 @@ html {
     float: right;
   }
 
+  .hemingway--book {
+    height: 24em;
+    width: 24em;
+    background: url('../hemingway/images/new_book.png');
+  } 
