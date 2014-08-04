@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="../css/hemingway.css">    
   </head>
 
-  <body>
+  <body class="immobile">
     <div class="container">
       <div class="hemingway--banner centered-content"></div>
-      <h1 class="hemingway--header centered-text">IF HEMINGWAY WROTE JAVASCRIPT<br>by Angus Croll</h1>
+      <h1 class="hemingway--header centered-text">IF HEMINGWAY WROTE JAVASCRIPT by <a href="http://anguscroll.com">Angus Croll</a></h1>
       <div class="hemingway--horizontal-container">
-        <div class="hemingway--horizontal-third">
+        <div class="hemingway--horizontal-third first">
           <ul>
             <li class="left">  
               <span class="hemingway--sub-header">What if 25 famous authors wrote JavaScript?<br><br>
@@ -23,18 +23,18 @@
             </li>
           </ul>                
         </div>
-        <div class="hemingway--horizontal-third">
-          <img class="hemingway--book centered-content" src="images/new_book.png" alt="Buy Now!"/>
+        <div class="hemingway--horizontal-third second">
+          <img class="hemingway--book centered-content" src="images/new_book.png" alt="the cover"/>
         </div>  
-        <div class="hemingway--horizontal-third">
+        <div class="hemingway--horizontal-third third">
           <ul class="links">
-            <li>  
-              <a class="hemingway--sub-header" href="http://www.amazon.com/Hemingway-Wrote-JavaScript-Angus-Croll/dp/1593275854">Pre-order your copy!</a>
+            <li class="left">  
+              <a id="buy" class="hemingway--sub-header" href="buy/index.html">Pre-order your copy!</a>
             </li>
-            <li>  
+            <li class="left">  
               <a class="text hemingway--sub-header" href="http://www.amazon.com/Hemingway-Wrote-JavaScript-Angus-Croll/dp/1593275854">The Authors</a>
             </li>
-            <li>  
+            <li class="left">  
               <a class="text hemingway--sub-header" href="http://www.amazon.com/Hemingway-Wrote-JavaScript-Angus-Croll/dp/1593275854">Sample</a>
             </li>
 
@@ -56,6 +56,12 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
+
+    //crude mobile detection: should work for android and iOS, but not windows
+    if ('ontouchstart' in window) {
+      document.body.className += " mobile";
+      document.getElementById('buy').textContent = "Order yours!";
+    }
 
   </script>
 
