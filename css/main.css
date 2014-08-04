@@ -9,13 +9,14 @@
 }
 
 html {
-  color: #222;
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
-  font-size: 1em;
-  line-height: 1.5;
+
 }
 
-body {
+body.home {
+  color: #000;
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+  font-size: 1em;
+  line-height: 1.5;  
   background-image: url('../images/knitting.png');
 }
 
@@ -29,10 +30,6 @@ body {
   text-shadow: none;
 }
 
-a.text {
-  color: #000;
-}
-
 .bold {
   font-weight: bold;
 }
@@ -43,6 +40,10 @@ a.text {
 
 a {
   text-decoration: none;
+}
+
+a.black {
+  color: #000;
 }
 
 a.text:hover,
@@ -71,9 +72,9 @@ ul li {
   list-style-type: none;
 }
 
-ul a {
+/*ul a {
   display: block;
-}
+}*/
 
 h2,
 h3,
