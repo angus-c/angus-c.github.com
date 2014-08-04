@@ -47,13 +47,19 @@ a.hemingway--banner {
 } 
 
 .hemingway--header {
-  margin: 0 0.5em 0.5em 0.5em; 
+  margin: 0 0.5em 0em 0.5em; 
   font-size: 2.8em;
-  font-weight: bold;   
+  font-weight: bold; 
+}
+
+.hemingway--author {
+  margin: 0 0.5em 0.5em; 
+  font-size: 1.8em;
+  font-weight: bold;  
 }
 
 .hemingway--sub-header {
-  margin: 0.1em 0 0.1em;
+  margin: 0.1em 0 0.1em;  
   font-weight: bold;
   /*color: rgb(132, 0, 44);*/
   text-align: left;
@@ -67,12 +73,12 @@ a.hemingway--banner {
 }
 
 a.hemingway--sub-header {
-  font-size: 2em;
+  font-size: 1.5em;
   /*line-height: 2em; */
 }
 
 span.hemingway--sub-header {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .hemingway--horizontal-container {
@@ -116,6 +122,9 @@ body.mobile .third {
   text-align: center;
 }
 
+body.mobile .hemingway--header {
+  font-size: 1.8em;
+}
 
 
 
