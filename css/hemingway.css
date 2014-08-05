@@ -26,6 +26,7 @@ a {
 a:hover,
 a:focus,
 a:active {
+  text-decoration: none;
   border-bottom:1px solid;
 }
 
@@ -95,6 +96,7 @@ span.hemingway--sub-header {
 }
 
 .hemingway--book {
+  margin-top: 1em;
   height: 24em;
   width: 24em;
   background: url('../hemingway/images/new_book.png');
@@ -106,6 +108,10 @@ ul.links {
 
 li.left {
   margin-left: 1em;
+}
+
+img.sample {
+  width: 100%;
 }
 
 /* ==========================================================================

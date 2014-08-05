@@ -20,7 +20,7 @@ body.home {
   background-image: url('../images/knitting.png');
 }
 
-body {
+body.knitting {
   background-image: url('../images/knitting.png');  
 }
 
