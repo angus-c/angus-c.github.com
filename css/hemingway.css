@@ -121,18 +121,24 @@ img.sample {
    Mobile
    ========================================================================== */
 
-body.mobile .first,
-body.mobile .second {
+body.mobile .top .right,
+body.mobile .bottom .left {
   display: none;
 }
 
-body.mobile .third {
+body.mobile .top .left,
+body.mobile .bottom .right {
   width: 100%;
   text-align: center;
+  margin: 0;
 }
 
 body.mobile .hemingway--header {
-  font-size: 1.8em;
+  font-size: 2.5em;
+}
+
+body.mobile .top {
+  margin-bottom: 1em;
 }
 
 
