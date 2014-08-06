@@ -42,6 +42,15 @@ h1, h2, h3, h4 {
   font-weight: normal;
 }
 
+h1 {
+  margin-bottom: 0.1em;
+}
+
+h3 {
+  line-height: 0.5em;
+}
+
+
 /* ==========================================================================
    Site
    ========================================================================== */
@@ -62,6 +71,10 @@ h1, h2, h3, h4 {
 
 .hemingway--author {
   font-size: 1.8em;
+}
+
+.hemingway--credits {
+  font-size: 1.3em;
 }
 
 .hemingway--sub-header {
