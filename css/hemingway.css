@@ -46,11 +46,6 @@ h1 {
   margin-bottom: 0.1em;
 }
 
-h3 {
-  /*line-height: 0.5em;*/
-}
-
-
 /* ==========================================================================
    Site
    ========================================================================== */
@@ -60,7 +55,6 @@ h3 {
   width: 100%;
   background: url('../hemingway/images/thirteen_authors_2.png') repeat-x;
   background-position:top center;
-  /*background-repeat:no-repeat;*/
   background-size: 80em;
 }
 
@@ -79,7 +73,6 @@ h3 {
 }
 
 .hemingway--sub-header {
-  /*color: rgb(132, 0, 44);*/
   text-align: left;
 }
 
@@ -98,7 +91,6 @@ h3 {
 
 a.hemingway--sub-header {
   font-size: 1.5em;
-  /*line-height: 2em; */
 }
 
 p.hemingway--sub-header {
@@ -123,8 +115,6 @@ p.hemingway--sub-header {
 
 .hemingway--horizontal-half.left {
   width: 46%;
-/*  border-right: 1px solid;
-  border-top: 1px solid;*/
 }
 
 .hemingway--book {
@@ -146,7 +136,7 @@ p.author {
   display: inline-block;
   font-size: 1.7em;
   vertical-align: 4px
-  margin-left: 50%;
+  /*margin-left: 50%;*/
 }
 
 .hemingway--indent {
@@ -169,10 +159,6 @@ td.center {
    Mobile
    ========================================================================== */
 
-/*body.mobile h3 {
-  line-height: 1.5em;
-}
-*/
 body.mobile .top .right,
 body.mobile .bottom .left {
   display: none;
@@ -191,6 +177,14 @@ body.mobile .hemingway--header {
 
 body.mobile .top {
   margin-bottom: 1em;
+}
+
+body.mobile img.author {
+  height: 5em;
+}
+
+body.mobile p.author {
+  font-size: 1em;
 }
 
 
