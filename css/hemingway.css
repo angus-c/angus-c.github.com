@@ -47,7 +47,7 @@ h1 {
 }
 
 h3 {
-  line-height: 0.5em;
+  /*line-height: 0.5em;*/
 }
 
 
@@ -58,9 +58,9 @@ h3 {
 .hemingway--banner {
   height: 180px;
   width: 100%;
-  background: url('../hemingway/images/thirteen_authors_2.png');
+  background: url('../hemingway/images/thirteen_authors_2.png') repeat-x;
   background-position:top center;
-  background-repeat:no-repeat;
+  /*background-repeat:no-repeat;*/
   background-size: 80em;
 }
 
@@ -75,6 +75,7 @@ h3 {
 
 .hemingway--credits {
   font-size: 1.3em;
+  margin-bottom: 0.1em;
 }
 
 .hemingway--sub-header {
@@ -100,7 +101,7 @@ a.hemingway--sub-header {
   /*line-height: 2em; */
 }
 
-span.hemingway--sub-header {
+p.hemingway--sub-header {
   font-size: 1.5em;
 }
 
@@ -140,10 +141,18 @@ img.sample {
   margin-left: 1em;
 }
 
+.links>li {
+  margin-bottom: 0.8em;
+}
+
 /* ==========================================================================
    Mobile
    ========================================================================== */
 
+/*body.mobile h3 {
+  line-height: 1.5em;
+}
+*/
 body.mobile .top .right,
 body.mobile .bottom .left {
   display: none;
