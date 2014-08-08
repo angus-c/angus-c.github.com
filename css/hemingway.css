@@ -72,6 +72,12 @@ h1 {
   margin-bottom: 0.1em;
 }
 
+.hemingway--quote {
+  font-size: 1em;
+  margin-bottom: 0.1em;
+  font-style: italic;
+}
+
 .hemingway--sub-header {
   text-align: left;
   font-size: 1.5em;

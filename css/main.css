@@ -98,14 +98,16 @@ h4 {
   text-align: center;
 }
 
-.img-anchor {
+.img-anchor,
+.img-anchor:hover,
+.img-anchor:focus,
+.img-anchor:active {
   border: 0;
 }
 
 td.center {
   text-align: center;
 }
-
 
 /* ==========================================================================
    Site
@@ -150,6 +152,10 @@ td.center {
 .site-footer p {
   color: #777;
   font-size: 0.875em;
+}
+
+.ital {
+  font-style: italic;
 }
 
 /* ==========================================================================
