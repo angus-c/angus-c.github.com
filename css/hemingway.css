@@ -64,7 +64,6 @@ h1 {
   font-size: 2em;
 }
 
-
 .hemingway--author {
   font-size: 1.8em;
 }
@@ -155,12 +154,12 @@ a.hemingway--banner {
 
 a.hemingway--sample {
   border: 0;
-  margin:0 10px 0 0;
+  margin: 0 10px 0 0;
 }
 
 .hemingway--sample>img{
-  max-width:265px;
-  border:1px solid;
+  max-width: 24em;
+  border: 1px solid;
 }
 
 div.hemingway--sample {
@@ -189,6 +188,7 @@ body.mobile .hemingway--header {
 
 body.mobile hemingway--page-header {
   margin: auto;
+  font-size: 1.5em;
 }
 
 body.mobile .top {
@@ -202,6 +202,11 @@ body.mobile img.author {
 body.mobile p.author {
   font-size: 0.7em;
 }
+
+body.mobile .hemingway--sample>img{
+  max-width: 5em;
+}
+
 
 
 
