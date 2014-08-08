@@ -75,6 +75,7 @@ h1 {
 
 .hemingway--sub-header {
   text-align: left;
+  font-size: 1.5em;
 }
 
 .hemingway--note {
@@ -90,12 +91,12 @@ h1 {
   font-size: 1.2em;
 }
 
-a.hemingway--sub-header {
-  font-size: 1.5em;
+.hemingway--below-fold {
+  margin-top: 4em;
 }
 
-p.hemingway--sub-header {
-  font-size: 1.5em;
+.hemingway--below-fold .hemingway--sub-header {
+  font-size: 1.8em;
 }
 
 .hemingway--horizontal-container {
@@ -183,7 +184,7 @@ body.mobile .bottom .right {
 }
 
 body.mobile .hemingway--page-header {
-  margin: -0.3em 0 1em 1em;
+  margin: -0.3em 0 0.8em 1em;
   font-size: 1.5em;
 }
 
