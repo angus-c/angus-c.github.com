@@ -182,12 +182,8 @@ body.mobile .bottom .right {
   margin: 0;
 }
 
-body.mobile .hemingway--header {
-  font-size: 2.5em;
-}
-
-body.mobile hemingway--page-header {
-  margin: auto;
+body.mobile .hemingway--page-header {
+  margin: -0.3em 0 1em 1em;
   font-size: 1.5em;
 }
 
@@ -195,16 +191,16 @@ body.mobile .top {
   margin-bottom: 1em;
 }
 
-body.mobile img.author {
+body.mobile imgs.author {
   height: 5em;
 }
 
 body.mobile p.author {
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
-body.mobile .hemingway--sample>img{
-  max-width: 5em;
+body.mobile .hemingway--sample>img {
+  max-width: 8em;
 }
 
 

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../css/hemingway.css">
   </head>
 
-  <body class="mobile">
+  <body class="immobile">
     <div class="container">
       <a href="../index.html" class="hemingway--banner centered-content"></a>
       <h1 class="hemingway--page-header">Look Inside!</h1>
@@ -44,8 +44,7 @@
 
     //crude mobile detection: should work for android and iOS, but not windows
     if ('ontouchstart' in window) {
-      // document.body.className += " mobile";
-      // document.getElementById('buy').textContent = "Order yours!";
+      document.body.className += " mobile";
     }
 
   </script>
