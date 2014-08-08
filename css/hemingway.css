@@ -29,10 +29,6 @@ a:active {
   border-bottom:1px solid;
 }
 
-a.hemingway--banner {
-  border: 0;
-}
-
 p {
   webkit-margin: 0;
   margin: 0;
@@ -65,7 +61,7 @@ h1 {
 
 .hemingway--page-header {
   margin: 0 0 0 1em;
-  font-size: 2.8em;
+  font-size: 2em;
 }
 
 
@@ -151,6 +147,24 @@ table.authors {
 
 .links>li {
   margin-bottom: 0.8em;
+}
+
+a.hemingway--banner {
+  border: 0;
+}
+
+a.hemingway--sample {
+  border: 0;
+  margin:0 10px 0 0;
+}
+
+.hemingway--sample>img{
+  max-width:265px;
+  border:1px solid;
+}
+
+div.hemingway--sample {
+  margin-top: 0.5em;
 }
 
 /* ==========================================================================
