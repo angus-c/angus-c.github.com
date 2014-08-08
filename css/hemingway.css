@@ -48,7 +48,7 @@ h1 {
 .hemingway--banner {
   height: 180px;
   width: 100%;
-  background: url('../hemingway/images/thirteen_authors_2.png') repeat-x;
+  background: url('../hemingway/images/thirteen_authors.jpeg') repeat-x;
   background-position:top center;
   background-size: 80em;
 }
@@ -127,7 +127,7 @@ h1 {
 .hemingway--book {
   height: 15em;
   width: 15em;
-  background: url('../hemingway/images/new_book.png');
+  background: url('../hemingway/images/new_book.jpeg');
 }
 
 img.sample {
