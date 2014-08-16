@@ -130,6 +130,7 @@ h1 {
 }
 
 .hemingway--cover {
+  margin-top: -1em;
   height: 30em;
   width: 60em;
 }
