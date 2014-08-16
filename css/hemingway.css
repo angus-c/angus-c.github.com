@@ -126,9 +126,14 @@ h1 {
 
 .hemingway--book {
   height: 15em;
-  width: 15em;
-  background: url('../hemingway/images/new_book.jpeg');
+  width: 30em;
 }
+
+.hemingway--cover {
+  height: 30em;
+  width: 60em;
+}
+
 
 img.sample {
   width: 100%;
