@@ -17,7 +17,7 @@ html {
 a {
   color: rgb(132, 0, 44);
   text-decoration: none;
-  border-bottom:1px dashed;
+  border-bottom:1px dashed rgba(132, 0, 44, 0.2);
   display: inline;
 }
 
@@ -124,6 +124,10 @@ h1 {
   width: 46%;
 }
 
+.hemingway--horizontal-half.foot-right {
+  width: 40%;
+}
+
 .hemingway--book {
   height: 15em;
   width: 30em;
@@ -134,7 +138,6 @@ h1 {
   height: 30em;
   width: 60em;
 }
-
 
 img.sample {
   width: 100%;
