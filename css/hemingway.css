@@ -197,13 +197,19 @@ body.mobile .bottom .right {
   margin: 0;
 }
 
-body.mobile .foot {
+body.mobile .foot,
+body.mobile .foot-right {
   width: 96%;
   margin-left: 2%;
 }
 
-body.mobile .hemingway--below-fold {
+body.mobile .hemingway--below-fold left {
   margin-top: 2em;
+  text-align: left;
+}
+
+body.mobile hemingway--quote {
+  text-align: left;
 }
 
 body.mobile .hemingway--page-header {
@@ -226,6 +232,7 @@ body.mobile p.author {
 body.mobile .hemingway--sample>img {
   max-width: 8em;
 }
+
 
 
 
