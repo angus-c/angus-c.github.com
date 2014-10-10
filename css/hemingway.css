@@ -246,6 +246,11 @@ body.mobile .hemingway--sample>img {
   max-width: 8em;
 }
 
+body.mobile .left-align-centered-text {
+  text-align: left;
+  margin-left: 10%
+}
+
 
 
 
