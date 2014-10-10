@@ -98,6 +98,11 @@ h4 {
   text-align: center;
 }
 
+.left-align-centered-text {
+  text-align: left;
+  margin-left: 40%
+}
+
 .img-anchor,
 .img-anchor:hover,
 .img-anchor:focus,

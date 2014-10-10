@@ -87,8 +87,17 @@ h1 {
   font-size: 1.8em;
 }
 
+a.hemingway--vendor {
+  margin: 1em 0 0.1em 0;
+  color: black;
+}
+
+img.hemingway--vendor {
+  vertical-align: middle;
+}
+
 .hemingway--note {
-  margin: 3em 1em;
+  margin: 1em 1em;
   font-weight: normal;
   font-size: 1.5em;
   text-align: right;
