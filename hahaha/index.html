@@ -1,6 +1,16 @@
-<!-- Start NovelRank Sales Rank Widget -->
-<script src="http://www.novelrank.com/embed.php?asin=1593275854"
-type="text/javascript" ></script>
-<noscript>
-<a href='http://www.novelrank.com/'>Amazon Sales Rank</a>
-by NovelRank</noscript>
+<html>
+
+  <!-- Start NovelRank Sales Rank Widget -->
+  <script src="http://www.novelrank.com/embed.php?asin=1593275854"
+  type="text/javascript" ></script>
+
+  <script>
+  setInterval(reload, 60*1000);
+  function reload() {
+    document.location.href = document.location.href;
+    document.title = document.querySelector('p.nr_salesrank').textContent;
+  }
+  </script>
+</html>
+
+
