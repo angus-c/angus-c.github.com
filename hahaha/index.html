@@ -10,7 +10,7 @@
   function reload() {
     location.reload;
     rank = document.querySelector('p.nr_salesrank').textContent;
-    if(last != rank) {
+    if(rank != last) {
       document.title = rank;
       last = rank;
     }
