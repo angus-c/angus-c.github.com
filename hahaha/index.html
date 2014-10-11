@@ -5,10 +5,15 @@
   type="text/javascript" ></script>
 
   <script>
-  setInterval(reload, 60*1000);
+  var last, rank;
+  setInterval(reload, 1000*60);
   function reload() {
-    document.location.href = document.location.href;
-    document.title = document.querySelector('p.nr_salesrank').textContent;
+    location.reload;
+    rank = document.querySelector('p.nr_salesrank').textContent;
+    if(last != rank) {
+      document.title = rank;
+      last = rank;
+    }
   }
   </script>
 </html>
