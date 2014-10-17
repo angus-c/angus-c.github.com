@@ -83,8 +83,12 @@ h1 {
   font-size: 1.5em;
 }
 
-#buy {
-  font-size: 1.8em;
+/*#buy > a {
+  font-size: 1.5em;
+}
+*/
+div#buy, #buy > .main {
+  font-size: 1.5em;
 }
 
 a.hemingway--vendor {
