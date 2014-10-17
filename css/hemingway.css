@@ -202,6 +202,10 @@ div.hemingway--sample {
    Mobile
    ========================================================================== */
 
+.mobile-buy {
+  font-size: 1.8em;
+}
+
 body.mobile .top .right,
 body.mobile .bottom .left {
   display: none;
