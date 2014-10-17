@@ -41,6 +41,7 @@
           <ul class="links">
             <li>
               <div id="buy"><a class="main" href="buy/index.html">Buy Now!</a> ( <a href="http://www.amazon.com/gp/product/1593275854/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275854&linkCode=as2&tag=ifhemwrojav-20&linkId=HEHXBBWQN7YSZSYD">Amazon</a> / <a href="http://www.nostarch.com/hemingwayjs">No Starch</a> )</div>
+              <a id="mobile-buy" class="hemingway--sub-header" href="buy/index.html" style="display:none">Buy Now!</a>
             </li>
             <li>
               <a class="hemingway--sub-header" href="authors/index.html">The Authors</a>
@@ -98,7 +99,8 @@
     //crude mobile detection: should work for android and iOS, but not windows
     if ('ontouchstart' in window) {
       document.body.className += " mobile";
-      document.querySelector('buy.main').textContent = "Order yours!";
+      document.getElementById('buy').style.display = 'none';
+      document.getElementById('buy-mobile').style.display = '';
     }
 
   </script>
