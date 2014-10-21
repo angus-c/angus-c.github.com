@@ -112,6 +112,11 @@ h1 > img.hemingway--vendor {
   text-align: right;
 }
 
+.hemingway--note.small {
+  margin: 0;
+  font-size: 0.7em;
+}
+
 .hemingway--annotation {
   margin: 0 0 0 1em;
   font-weight: normal;
@@ -213,10 +218,7 @@ div.hemingway--sample {
 }
 
 #map {
-  margin:10px 10%;
-  /*padding:20px;*/
-  /*border:1px solid;*/
-  /*border-radius: 5px;*/
+  /*margin-top:10px;*/
   height:100%;
 }
 .hidden {
