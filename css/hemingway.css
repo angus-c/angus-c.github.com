@@ -100,6 +100,11 @@ img.hemingway--vendor {
   vertical-align: top;
 }
 
+h1 > img.hemingway--vendor {
+  margin-top: 0.35em;
+  height: 1em;
+}
+
 .hemingway--note {
   margin: 1em 1em;
   font-weight: normal;
@@ -196,6 +201,36 @@ a.hemingway--sample {
 
 div.hemingway--sample {
   margin-top: 0.5em;
+}
+
+/* ==========================================================================
+   Map
+   ========================================================================== */
+
+.country:hover{
+  stroke: #fff;
+  stroke-width: .7px;
+}
+
+#map {
+  margin:10px 10%;
+  /*padding:20px;*/
+  /*border:1px solid;*/
+  /*border-radius: 5px;*/
+  height:100%;
+}
+.hidden {
+  display: none;
+}
+div.tooltip {
+  color: #222;
+  background: #fff;
+  padding: .5em;
+  text-shadow: #f5f5f5 0 1px 0;
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px 0px #a6a6a6;
+  opacity: 0.9;
+  position: absolute;
 }
 
 /* ==========================================================================
