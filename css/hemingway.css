@@ -87,14 +87,19 @@ h1 {
   font-size: 1.5em;
 }
 */
-div#buy, #buy > .main {
-  font-size: 1.5em;
+#buy > .main {
+  font-size: 2.0em;
+}
+
+#buy {
+  font-size: 1.2em;
 }
 
 a.hemingway--vendor {
   margin: 1em 0 0.1em 0;
   color: black;
 }
+
 
 img.hemingway--vendor {
   vertical-align: top;
