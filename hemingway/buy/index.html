@@ -14,7 +14,8 @@
     <div class="container">
       <div class="hemingway--message">Now on <a class="emphasis" href="http://www.amazon.com/Hemingway-Wrote-JavaScript-Angus-Croll-ebook/dp/B00NU3LQ9S/ref=dp_kinw_strp_1" target="_blank">Kindle</a>!!</div>
       <a href="../index.html" class="hemingway--banner centered-content" title="back to homepage"></a>
-      <h1 class="hemingway--header centered-text">Buy Now!</h1>
+      <h1 id="vendor-select" class="hemingway--page-header centered-text">Click to select your preferred vendor...</h1>
+      <h1 id="mobile-vendor-select" class="hemingway--page-header centered-text" style="display:none">Tap on a Vendor...</h1>
         <ul class="links">
           <br>
           <li class="centered-text">
@@ -22,7 +23,7 @@
           </li>
           <br>
           <li class="centered-text">
-            <a class="hemingway--sub-header hemingway--vendor img-anchor" href="http://www.nostarch.com/hemingwayjs"><img class="hemingway--vendor" src="../images/no_starch.jpg"/></a>
+            <a class="hemingway--sub-header hemingway--vendor img-anchor" href="http://www.nostarch.com/hemingwayjs"><img class="hemingway--vendor" src="../images/no_starch.jpg"/>*</a>
           </li>
           <br>
           <li class="centered-text">
@@ -47,7 +48,8 @@
     //crude mobile detection: should work for android and iOS, but not windows
     if ('ontouchstart' in window) {
       document.body.className = "mobile";
-      // document.getElementById('buy').textContent = "Order yours!";
+      document.getElementById('vendor-select').style.display = 'none';
+      document.getElementById('mobile-vendor-select').style.display = '';
     }
 
   </script>
