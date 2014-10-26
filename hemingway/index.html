@@ -101,7 +101,7 @@
 
     //crude mobile detection: should work for android and iOS, but not windows
     if ('ontouchstart' in window) {
-      document.body.className += " mobile";
+      document.body.className = " mobile";
       document.getElementById('buy').style.display = 'none';
       document.getElementById('mobile-buy').style.display = '';
     }
