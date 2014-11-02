@@ -1,0 +1,63 @@
+body {
+  background-color: #fcfcfc;
+  color: #444;
+  margin: 10px;
+  padding: 20px 10px 40px;
+  text-align: center;
+}
+
+.Icon {
+  font-size: 50px;
+  opacity: 0.9;
+}
+
+.Accounts {
+  margin: 25px 0;
+}
+
+.Accounts-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.Conference .Icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Conference .Icon--speaker {
+  font-size: 40px;
+  margin-top: 6px;
+}
+
+.Conference .Icon--wave {
+  -webkit-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.Conference .Icon--globe {
+  color: #366FD1;
+  font-size: 90px;
+  margin-left: 18px;
+}
+
+.Flight .Flight-logo {
+  max-width: 100px;
+}
+
+.is-separated {
+  position: relative;
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+}
+
+.is-separated:after {
+  border-top: 2px solid #ddd;
+  bottom: 0;
+  content: ' ';
+  left: 50%;
+  margin-left: -50px;
+  position: absolute;
+  width: 100px;
+}
