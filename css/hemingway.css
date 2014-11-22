@@ -118,6 +118,11 @@ img.hemingway--vendor {
   vertical-align: top;
 }
 
+img.hemingway--bottom {
+  vertical-align: bottom;
+}
+
+
 .immobile img.bw {
 /*    -webkit-filter: grayscale(100%);
        -moz-filter: grayscale(100%);
