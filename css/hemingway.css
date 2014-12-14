@@ -225,6 +225,10 @@ table.authors {
   margin: auto;
 }
 
+.brown {
+  color: #016C55
+}
+
 .links>li {
   margin-bottom: 0.8em;
 }
