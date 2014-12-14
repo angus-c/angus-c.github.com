@@ -318,6 +318,10 @@ body.mobile .hemingway--page-header {
   font-size: 1.8em;
 }
 
+body.mobile .sales {
+  text-align: center
+}
+
 body.mobile .top {
   margin-bottom: 1em;
 }
@@ -339,9 +343,6 @@ body.mobile .left-align-centered-text {
   margin-left: 1em;
 }
 
-body.mobile .hemingway--sub-header {
-  text-align: center;
-}
 
 
 
