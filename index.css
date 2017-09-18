@@ -32,12 +32,12 @@ body {
 
 .Conference .Icon--wave {
   -webkit-transform: rotate(90deg);
-       -o-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .Conference .Icon--globe {
-  color: #366FD1;
+  color: #366fd1;
   font-size: 90px;
   margin-left: 18px;
 }
@@ -48,8 +48,8 @@ body {
 
 .is-separated {
   position: relative;
-  padding-bottom: 60px;
-  margin-bottom: 60px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .is-separated:after {
